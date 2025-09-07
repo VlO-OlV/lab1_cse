@@ -14,7 +14,8 @@ import { Separator } from './components/ui/Separator';
 function App() {
   return (
     <div className="container mx-auto p-4 max-w-4xl">
-      <h1 className="text-3xl font-bold mb-8 text-center">UI Controls Showcase</h1>      
+      <h1 className="text-3xl font-bold mb-4 text-center">UI Controls Showcase</h1>
+      <p className='text-2xl font-medium text-center mb-8'>Created by Ivan Linichenko (IP-31)</p>
       <RadioGroupSection />
       <Separator className="my-8" />
       <CheckboxSection />
